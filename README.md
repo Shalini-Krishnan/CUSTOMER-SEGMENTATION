@@ -25,7 +25,9 @@ Here outliers are present in the columns Probability of full payment and Minimum
 SCALING OF THE DATA : Feature normalizing or scaling is a very important step in Clustering algorithms. Since Clustering techniques uses Distance calculation to form the cohorts, it will be wise to scale the variables which can be of different magnitudes. Normalizing the data is important to ensure that the distance measure accords equal weight to each variable. Without normalization the variable with the largest scale will dominate the measure. Scaling is used to eliminate redundant data and ensures that good quality clusters are generated which can improve the efficiency of the Clustering algorithms. 
 
 For the provided Bank Marketing dataset, the variables (amount) are of different magnitudes of 100’s, 1000’s, 10000’s.Hence we normalize the variables using Z-score scaling. Now the variables will have a standard normal distribution with mean = 0 and standard deviation = 1. Standard scores of the samples are calculated as follows: 
+                                  
                                   Z = X – MU / SIGMA 
+                                  
 MU – mean; SIGMA – standard deviation 
 
 HIERARCHICAL CLUSTERING : 
